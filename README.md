@@ -1,5 +1,5 @@
 # E-bike
-Linear programming approach to find the optimal position of charging stations, to ensure full coverage of the entire cyclepath, while minimizing installation costs and considering the bikes’ autonomy.
+A linear programming approach to find the optimal position of charging stations, to ensure full coverage of the cyclepath, while minimizing installation costs and considering the bikes’ autonomy.
 
 The concept behind the placement of the charging stations is that since the charging operations require a non negligible time, these should be positioned in places where alternative activities could be carried out, as restaurants, museums, swimming pool, or other amenities. These places, called Points of Interest (POI) are not on the main trajectory of the cyclepath, but the bikers must deviate to reach them.  
 
@@ -11,7 +11,8 @@ Considering a biker that traverses the cyclepath from s to t , the model determi
 In the case of the image above:
 ![371481220-930ca52b-61d9-44a3-8a19-fb949faff6c1](https://github.com/user-attachments/assets/987feb12-8a21-40ff-8ba1-4a2032ee13bf)
 
-Although the linear optimization solution has been applied to a specific case study, characterized by an arbitrary selection of POI positions, number of POIs, energy consumption between consecutive nodes and deviations, maximum energy consumption between consecutive charging stations, and the cost of installing a charging station at each site, the framework can be easily adapted to any type of available data. Furthermore, additional interesting constraints can be incorporated into the problem. For instance, a hierarchical order of preference between the POIs could be introduced as a new practical constraint, in order to better meet the needs of travelers. <br>
+Although the linear optimization solution has been applied to a specific case study, characterized by an arbitrary selection of POI positions, number of POIs, energy consumption between consecutive nodes and deviations, maximum energy consumption between consecutive charging stations, and the cost of installing a charging station at each site, the framework can be easily adapted to any type of available data. Furthermore, additional interesting constraints can be incorporated into the problem. For instance, a hierarchical order of preference between the POIs could be introduced as a new practical constraint, in order to better meet the needs of travelers.
+
 s and t, as said before, are the dynamic extremes of the path for which we want to find the optimal solution. These can be modified to test the model on different paths, and furthermore, nodes can be added/removed, consumption and installation costs can be adjusted directly from the data shown below, and the code will continue to return the optimal solution.  
 ```python
 #data PROBLEM 
