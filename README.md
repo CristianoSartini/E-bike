@@ -7,7 +7,8 @@ To support the formulation we make use of a graph with 2n+2 nodes. Nodes s and t
  ![371481220-930ca52b-61d9-44a3-8a19-fb949faff6c1](https://github.com/user-attachments/assets/be1a3e51-3d0e-451f-add1-f84cd362639b)
 
 
-Considering a biker that traverses the cyclepath from s to t , the model determines in which nodes to install the charging stations so that the maximum energy consumption between two consecutive charging stations is no more than "delta" and minimizes the overall cost. The code returns the total installation cost and plots a graph with the optimal solution Highlighted.  
+Considering a biker that traverses the cyclepath from s to t , the model determines in which nodes to install the charging stations so that the maximum energy consumption between two consecutive charging stations is no more than "delta" and minimizes the overall cost. The code returns the total installation cost and plots a graph with the optimal solution highlighted.  
+
 In the case of the image above:
 ![371481220-930ca52b-61d9-44a3-8a19-fb949faff6c1](https://github.com/user-attachments/assets/987feb12-8a21-40ff-8ba1-4a2032ee13bf)
 
