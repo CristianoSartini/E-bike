@@ -1,5 +1,5 @@
 # E-bike
-A linear programming approach to find the optimal position of charging stations, to ensure full coverage of the cyclepath, while minimizing installation costs and considering the bikes’ autonomy.
+A linear programming approach to optimally place charging stations, to ensure full coverage of the cyclepath, while minimizing installation costs and considering the bikes’ autonomy.
 
 The concept behind the placement of the charging stations is that since the charging operations require a non negligible time, these should be positioned in places where alternative activities could be carried out, as restaurants, museums, swimming pool, or other amenities. These places, called Points of Interest (POI) are not on the main trajectory of the cyclepath, but the bikers must deviate to reach them.  
 
