@@ -10,7 +10,8 @@ To support the formulation we make use of a graph with 2n+2 nodes. Nodes s and t
 Considering a biker that traverses the cyclepath from s to t , the model determines in which nodes to install the charging stations so that the maximum energy consumption between two consecutive charging stations is no more than "delta" and minimizes the overall cost. The code returns the total installation cost and plots a graph with the optimal solution highlighted.  
 
 In the case of the image above:
-![371481220-930ca52b-61d9-44a3-8a19-fb949faff6c1](https://github.com/user-attachments/assets/987feb12-8a21-40ff-8ba1-4a2032ee13bf)
+![371486854-d4aa7609-4e5d-41ce-98f6-9ec06b02a558](https://github.com/user-attachments/assets/9569a3c1-e2c7-4ba8-8102-a1c9f893c59e)
+
 
 Although the linear optimization solution has been applied to a specific case study, characterized by an arbitrary selection of POI positions, number of POIs, energy consumption between consecutive nodes and deviations, maximum energy consumption between consecutive charging stations, and the cost of installing a charging station at each site, the framework can be easily adapted to any type of available data. Furthermore, additional interesting constraints can be incorporated into the problem. For instance, a hierarchical order of preference between the POIs could be introduced as a new practical constraint, in order to better meet the needs of travelers.
 
